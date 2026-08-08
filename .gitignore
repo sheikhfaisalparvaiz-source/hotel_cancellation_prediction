@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+
+# Data & Models (Keep structure, ignore large binary files)
+data/raw/*
+data/processed/*
+models/*
+artifacts/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!artifacts/.gitkeep
+
+# Environments & Keys
+.env
+.ipynb_checkpoints/
+*.ge.conf
+
+# Jupyter / misc
+.idea/
+.vscode/
+.pytest_cache/
+
+# Anaconda file browser cache
+anaconda_projects/
